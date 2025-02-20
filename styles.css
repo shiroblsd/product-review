@@ -32,10 +32,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-
-.product-mobile {
-    display: none;
-}
 .text {
     display: flex;
     flex-direction: column;
@@ -110,6 +106,10 @@ body {
     margin-right: 0.5rem;
 }
 
+.product_mobile {
+    display: none;
+}
+
 @media (max-width: 768px) {
     body {
         padding: 0;
@@ -126,10 +126,12 @@ body {
     }
 
     .product {
-        display: none;
+        display: none; /* Скрываем десктопные картинки */
     }
 
-    .product-mobile {
+    .product_mobile {
         display: block;
+        width: 100%;
+        height: auto;
     }
 }
