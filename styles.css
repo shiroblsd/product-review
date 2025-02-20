@@ -126,7 +126,7 @@ body {
     }
 
     .product {
-        display: none; /* Скрываем десктопные картинки */
+        display: none;
     }
 
     .product_mobile {
